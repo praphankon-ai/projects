@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(Get-Content \"C:\\\\Users\\\\ADMIN\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--Work-Mam-2026-MaM-Project-202605-Spin-the-Wheel-prize-wheel-app\\\\f7ab6a78-5101-49bd-8778-e1243a266d45\\\\tasks\\\\bag76alo2.output\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Work_Mam 2026\\\\MaM_Project\\\\202605_Spin the Wheel\\\\prize-wheel-app\\\\src\\\\test\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Work_Mam 2026\\\\MaM_Project\\\\202605_Spin the Wheel\\\\prize-wheel-app\\\\src\\\\__tests__\\\\context\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Work_Mam 2026\\\\MaM_Project\\\\202605_Spin the Wheel\\\\prize-wheel-app\\\\src\\\\__tests__\\\\hooks\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Work_Mam 2026\\\\MaM_Project\\\\202605_Spin the Wheel\\\\prize-wheel-app\\\\src\\\\__tests__\\\\utils\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Work_Mam 2026\\\\MaM_Project\\\\202605_Spin the Wheel\\\\prize-wheel-app\\\\src\\\\__tests__\\\\components\")",
+      "Bash(npm test *)"
+    ]
+  }
+}
