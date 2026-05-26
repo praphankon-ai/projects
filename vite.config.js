@@ -3,6 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/prizeapp',
+  preview: {
+    port: 4173,
+    host: true,
+    open: false,
+  },
   test: {
     globals: true,
     environment: 'jsdom',
