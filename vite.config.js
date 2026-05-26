@@ -10,8 +10,10 @@ export default defineConfig({
     port: 4173,
     host: true,
     open: false,
-    // 👇 เพิ่มส่วนนี้เข้าไปเพื่อแก้ปัญหา Blocked request ครับ
-    allowedHosts: 'all'
+    // 👇 แก้จาก 'all' มาระบุชื่อโดเมนของ Railway โดยตรงแบบนี้ครับ
+    allowedHosts: [
+      'projects-production-0da2.up.railway.app'
+    ]
   },
   test: {
     globals: true,
